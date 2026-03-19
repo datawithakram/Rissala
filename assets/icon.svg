@@ -1,0 +1,18 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DEB853" />
+      <stop offset="100%" stop-color="#A8812D" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1024" height="1024" rx="220" fill="url(#goldGradient)" />
+  <!-- Crescent -->
+  <path d="M 600,320 
+           A 220 220 0 1,0 600,704 
+           A 280 280 0 1,1 600,320 z" 
+        fill="#14213d" />
+  <!-- Star -->
+  <polygon points="620,400 640,460 700,460 650,500 670,560 620,520 570,560 590,500 540,460 600,460" 
+           fill="#14213d" />
+</svg>

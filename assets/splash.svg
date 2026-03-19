@@ -1,0 +1,43 @@
+<svg width="2732" height="2732" viewBox="0 0 2732 2732" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#215B4C" />
+      <stop offset="100%" stop-color="#143E54" />
+    </linearGradient>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DEB853" />
+      <stop offset="100%" stop-color="#A8812D" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="2732" height="2732" fill="url(#bgGrad)" />
+
+  <!-- The Islamic Geometric pattern lines from React splash (simplified for SVG) -->
+  <g stroke="#ffffff" stroke-width="2" opacity="0.1" transform="translate(1366, 1366)">
+    <!-- Add simplified faint pattern behind icon if needed, or keep it clean -->
+    <circle r="400" fill="none" />
+    <circle r="600" fill="none" />
+    <circle r="800" fill="none" />
+    <path d="M-800,0 L800,0 M0,-800 L0,800 M-565,-565 L565,565 M-565,565 L565,-565" />
+    <path d="M-725,-325 L725,325 M-325,-725 L325,725 M-725,325 L725,-325 M-325,725 L325,-725" />
+  </g>
+
+  <!-- Centered Icon (1024 / 2 = 512, scaled down a bit maybe to 300x300, or let capacitor handle it, but for splash.svg we need the icon centered) -->
+  <g transform="translate(1116, 966)">
+    <rect width="500" height="500" rx="110" fill="url(#goldGradient)" />
+    <!-- Crescent (scaled roughly to 500x500 box from 1024) -->
+    <path d="M 290,160 
+             A 100 100 0 1,0 290,340 
+             A 130 130 0 1,1 290,160 z" 
+          fill="#14213d" />
+    <!-- Star -->
+    <polygon points="300,195 310,225 340,225 315,245 325,275 300,255 275,275 285,245 260,225 290,225" 
+             fill="#14213d" />
+  </g>
+
+  <!-- Text -->
+  <g fill="#ffffff" text-anchor="middle" font-family="Arial, sans-serif">
+    <text x="1366" y="1600" font-size="100" font-weight="bold" letter-spacing="2">الرسالة</text>
+    <text x="1366" y="1720" font-size="50" opacity="0.8">Al Risala</text>
+  </g>
+</svg>
